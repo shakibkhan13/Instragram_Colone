@@ -31,7 +31,7 @@ class _InstagramProfileState extends State<InstagramProfile> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Profile'),
+        title: Text('Instragram Profile'),
         actions: [
           IconButton(
             icon: Icon(Icons.menu),
@@ -52,7 +52,7 @@ class _InstagramProfileState extends State<InstagramProfile> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
-            label: 'Profile',
+            label: ' Profile',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
